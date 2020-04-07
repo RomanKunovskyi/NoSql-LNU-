@@ -1,0 +1,246 @@
+!!!!!!!!!Coppy and insert in mongo.exe!!!!!!!!!!!
+!!!!!!!!!PASSWORD==NICKNAME!!Md5!!!!!!!!!!!!!!!!!
+/////////////////////////////////////////////////
+
+use SocialMedia
+
+db.users.insert(
+{
+        "_id" : ObjectId("5e8c45899d147721f4c26f2d"),
+        "Nickname" : "kunorom",
+        "Password" : "a6b362b3e3de48f5d2cf85e5a61a6e97",
+        "PhoneNumber" : "0987241896",
+        "MailAddress" : "kunorom@gmail.com",
+        "FirstName" : "Roman",
+        "LastName" : "Kunovskyi",
+        "BornDate" : "01.01.2000 0:00:00",
+        "Subscribers" : [
+                ObjectId("5e8c45ed9d147721f4c26f2e"),
+                ObjectId("5e8c46329d147721f4c26f2f")
+        ],
+        "FavoriteUsers" : [
+                ObjectId("5e8c45ed9d147721f4c26f2e")
+        ]
+}
+)
+
+db.users.insert(
+{
+        "_id" : ObjectId("5e8c45ed9d147721f4c26f2e"),
+        "Nickname" : "ivanivan",
+        "Password" : "950d9f23fd53ddf6241840ae488703ba",
+        "PhoneNumber" : "0985674327",
+        "MailAddress" : "Vynyavskyy@gmail.com",
+        "FirstName" : "Ivan",
+        "LastName" : "Vynyavskyy",
+        "BornDate" : "12.02.2000 0:00:00",
+        "Subscribers" : [
+                ObjectId("5e8c45899d147721f4c26f2d")
+        ],
+        "FavoriteUsers" : [
+                ObjectId("5e8c45899d147721f4c26f2d"),
+                ObjectId("5e8c46329d147721f4c26f2f")
+        ]
+}
+)
+
+db.users.insert(
+{
+        "_id" : ObjectId("5e8c46329d147721f4c26f2f"),
+        "Nickname" : "olecsandr",
+        "Password" : "d19cc487f40dfb735983d7ddeae78c34",
+        "PhoneNumber" : "0958767823",
+        "MailAddress" : "Demidov@gmail.com",
+        "FirstName" : "Olecsandr",
+        "LastName" : "Demidov",
+        "BornDate" : "13.05.2000 0:00:00",
+        "Subscribers" : [
+                ObjectId("5e8c45ed9d147721f4c26f2e")
+        ],
+        "FavoriteUsers" : [
+                ObjectId("5e8c45899d147721f4c26f2d")
+        ]
+}
+)
+
+db.posts.insert(
+{
+        "_id" : ObjectId("5e8c4793baffa875583387db"),
+        "Text" : "NEW albom!!!",
+        "PicturePath" : "Source\\1559496280226.jpg",
+        "Date" : "07.04.2020 12:26:07",
+        "PostOwnerId" : ObjectId("5e8c45899d147721f4c26f2d"),
+        "Feelings" : [
+                {
+                        "Like" : true,
+                        "FeelerId" : ObjectId("5e8c45ed9d147721f4c26f2e"),
+                        "Date" : "07.04.2020 12:33:30"
+                },
+                {
+                        "Like" : true,
+                        "FeelerId" : ObjectId("5e8c46329d147721f4c26f2f"),
+                        "Date" : "07.04.2020 12:38:43"
+                }
+        ],
+        "Comments" : [
+                {
+                        "Text" : "Hello !!!",
+                        "Date" : "07.04.2020 12:28:08",
+                        "CommentOwnerId" : ObjectId("5e8c45899d147721f4c26f2d")
+                },
+                {
+                        "Text" : "GOOOOOOOOOOOOOOOOOOOOOOD",
+                        "Date" : "07.04.2020 12:33:54",
+                        "CommentOwnerId" : ObjectId("5e8c45ed9d147721f4c26f2e")
+                }
+        ]
+}
+)
+
+db.posts.insert(
+{
+        "_id" : ObjectId("5e8c47ebbaffa875583387dc"),
+        "Text" : "MATH......................................................................(((",
+        "PicturePath" : "Source\\238229438_21034.jpg",
+        "Date" : "07.04.2020 12:28:16",
+        "PostOwnerId" : ObjectId("5e8c45899d147721f4c26f2d"),
+        "Feelings" : [
+                {
+                        "Like" : true,
+                        "FeelerId" : ObjectId("5e8c45899d147721f4c26f2d"),
+                        "Date" : "07.04.2020 12:29:22"
+                },
+                {
+                        "Like" : true,
+                        "FeelerId" : ObjectId("5e8c45ed9d147721f4c26f2e"),
+                        "Date" : "07.04.2020 12:33:24"
+                },
+                {
+                        "Like" : true,
+                        "FeelerId" : ObjectId("5e8c46329d147721f4c26f2f"),
+                        "Date" : "07.04.2020 12:38:40"
+                }
+        ],
+        "Comments" : [
+                {
+                        "Text" : "too hard",
+                        "Date" : "07.04.2020 12:33:44",
+                        "CommentOwnerId" : ObjectId("5e8c45ed9d147721f4c26f2e")
+                }
+        ]
+}
+)
+
+
+db.posts.insert(
+{
+        "_id" : ObjectId("5e8c485ebaffa875583387dd"),
+        "Text" : "PUBG (my life)",
+        "PicturePath" : "Source\\246925868_213881.jpg",
+        "Date" : "07.04.2020 12:30:18",
+        "PostOwnerId" : ObjectId("5e8c45ed9d147721f4c26f2e"),
+        "Feelings" : [
+                {
+                        "Like" : false,
+                        "FeelerId" : ObjectId("5e8c46329d147721f4c26f2f"),
+                        "Date" : "07.04.2020 12:38:52"
+                },
+                {
+                        "Like" : false,
+                        "FeelerId" : ObjectId("5e8c45899d147721f4c26f2d"),
+                        "Date" : "07.04.2020 12:41:06"
+                }
+        ],
+        "Comments" : [
+                {
+                        "Text" : "I am the best.",
+                        "Date" : "07.04.2020 12:40:22",
+                        "CommentOwnerId" : ObjectId("5e8c46329d147721f4c26f2f")
+                }
+        ]
+}
+)
+
+
+db.posts.insert(
+{
+        "_id" : ObjectId("5e8c48d8baffa875583387de"),
+        "Text" : "HELP!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "PicturePath" : "Source\\246932855_56242.jpg",
+        "Date" : "07.04.2020 12:32:43",
+        "PostOwnerId" : ObjectId("5e8c45ed9d147721f4c26f2e"),
+        "Feelings" : [
+                {
+                        "Like" : false,
+                        "FeelerId" : ObjectId("5e8c46329d147721f4c26f2f"),
+                        "Date" : "07.04.2020 12:38:51"
+                },
+                {
+                        "Like" : true,
+                        "FeelerId" : ObjectId("5e8c45899d147721f4c26f2d"),
+                        "Date" : "07.04.2020 12:41:13"
+                }
+        ],
+        "Comments" : [
+                {
+                        "Text" : "It is easy!!!!",
+                        "Date" : "07.04.2020 12:40:03",
+                        "CommentOwnerId" : ObjectId("5e8c46329d147721f4c26f2f")
+                },
+                {
+                        "Text" : "omg bro",
+                        "Date" : "07.04.2020 12:41:21",
+                        "CommentOwnerId" : ObjectId("5e8c45899d147721f4c26f2d")
+                }
+        ]
+}
+)
+
+
+db.posts.insert(
+{
+        "_id" : ObjectId("5e8c4976baffa875583387df"),
+        "Text" : "I ILIKE it",
+        "PicturePath" : "Source\\250823868_57593.jpg",
+        "Date" : "07.04.2020 12:34:50",
+        "PostOwnerId" : ObjectId("5e8c46329d147721f4c26f2f"),
+        "Feelings" : [
+                {
+                        "Like" : true,
+                        "FeelerId" : ObjectId("5e8c46329d147721f4c26f2f"),
+                        "Date" : "07.04.2020 12:36:33"
+                },
+                {
+                        "Like" : false,
+                        "FeelerId" : ObjectId("5e8c45899d147721f4c26f2d"),
+                        "Date" : "07.04.2020 12:42:47"
+                }
+        ],
+        "Comments" : [
+                {
+                        "Text" : "((((((",
+                        "Date" : "07.04.2020 12:42:26",
+                        "CommentOwnerId" : ObjectId("5e8c45899d147721f4c26f2d")
+                }
+        ]
+}
+)
+
+
+db.posts.insert(
+{
+        "_id" : ObjectId("5e8c4997baffa875583387e0"),
+        "Text" : "FREEEEEEEEEEEE! OMG",
+        "PicturePath" : "Source\\250823743_31282.jpg",
+        "Date" : "07.04.2020 12:35:50",
+        "PostOwnerId" : ObjectId("5e8c46329d147721f4c26f2f"),
+        "Feelings" : [
+                {
+                        "Like" : true,
+                        "FeelerId" : ObjectId("5e8c46329d147721f4c26f2f"),
+                        "Date" : "07.04.2020 12:36:30"
+                }
+        ],
+        "Comments" : [ ]
+}
+)

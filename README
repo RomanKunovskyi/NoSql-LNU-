@@ -1,0 +1,30 @@
+SocialMediaApp using mongodb and WPF. First task from NoSql subject in Ivan Franko National University of Lviv.
+
+App is implemented  with subscribers and followers logic. (friends)
+
+Insert data ( read data.txt).
+
+Dall {
+  crud logic
+  entities
+  }
+
+ConnectionRepository {
+  to get mongodb client
+  }
+  
+Bll {
+    business logic
+    helper{
+      Convertor (Castom automapper)
+      Hash (Md5)
+    }
+  }
+
+Models {
+  Models(DTO)
+  }
+  
+ SocialMediaApp {
+  View(WPF)(using MVVM)
+  }

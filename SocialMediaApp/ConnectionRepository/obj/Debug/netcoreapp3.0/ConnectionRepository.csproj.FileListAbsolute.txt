@@ -1,0 +1,9 @@
+G:\LNU\3course2sem\Mongodb\Task1_SocialMedia\SocialMediaApp\ConnectionRepository\bin\Debug\netcoreapp3.0\ConnectionRepository.deps.json
+G:\LNU\3course2sem\Mongodb\Task1_SocialMedia\SocialMediaApp\ConnectionRepository\bin\Debug\netcoreapp3.0\ConnectionRepository.dll
+G:\LNU\3course2sem\Mongodb\Task1_SocialMedia\SocialMediaApp\ConnectionRepository\obj\Debug\netcoreapp3.0\ConnectionRepository.csprojAssemblyReference.cache
+G:\LNU\3course2sem\Mongodb\Task1_SocialMedia\SocialMediaApp\ConnectionRepository\obj\Debug\netcoreapp3.0\ConnectionRepository.AssemblyInfoInputs.cache
+G:\LNU\3course2sem\Mongodb\Task1_SocialMedia\SocialMediaApp\ConnectionRepository\obj\Debug\netcoreapp3.0\ConnectionRepository.AssemblyInfo.cs
+G:\LNU\3course2sem\Mongodb\Task1_SocialMedia\SocialMediaApp\ConnectionRepository\bin\Debug\netcoreapp3.0\ConnectionRepository.pdb
+G:\LNU\3course2sem\Mongodb\Task1_SocialMedia\SocialMediaApp\ConnectionRepository\obj\Debug\netcoreapp3.0\ConnectionRepository.dll
+G:\LNU\3course2sem\Mongodb\Task1_SocialMedia\SocialMediaApp\ConnectionRepository\obj\Debug\netcoreapp3.0\ConnectionRepository.pdb
+G:\LNU\3course2sem\Mongodb\Task1_SocialMedia\SocialMediaApp\ConnectionRepository\obj\Debug\netcoreapp3.0\ConnectionRepository.csproj.CoreCompileInputs.cache

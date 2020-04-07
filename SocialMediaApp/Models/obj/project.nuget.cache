@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "lpiF36nwKjkv1OxEVnNlY9r/fV76v4KYD+Y2sRm0tREriG+iEtQqr6W96tDcnnOZLWNRwnc/97C2N+e4Cu0Yxw==",
+  "success": true,
+  "projectFilePath": "G:\\LNU\\3course2sem\\Mongodb\\Task1_SocialMedia\\SocialMediaApp\\Models\\Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RomanKunovskyi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\RomanKunovskyi\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\RomanKunovskyi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

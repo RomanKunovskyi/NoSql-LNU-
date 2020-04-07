@@ -1,0 +1,16 @@
+G:\LNU\3course2sem\Mongodb\Task1_SocialMedia\SocialMediaApp\Bll\bin\Debug\netcoreapp3.0\Bll.deps.json
+G:\LNU\3course2sem\Mongodb\Task1_SocialMedia\SocialMediaApp\Bll\bin\Debug\netcoreapp3.0\Bll.dll
+G:\LNU\3course2sem\Mongodb\Task1_SocialMedia\SocialMediaApp\Bll\bin\Debug\netcoreapp3.0\Bll.pdb
+G:\LNU\3course2sem\Mongodb\Task1_SocialMedia\SocialMediaApp\Bll\bin\Debug\netcoreapp3.0\ConnectionRepository.dll
+G:\LNU\3course2sem\Mongodb\Task1_SocialMedia\SocialMediaApp\Bll\bin\Debug\netcoreapp3.0\Dal.dll
+G:\LNU\3course2sem\Mongodb\Task1_SocialMedia\SocialMediaApp\Bll\bin\Debug\netcoreapp3.0\Models.dll
+G:\LNU\3course2sem\Mongodb\Task1_SocialMedia\SocialMediaApp\Bll\bin\Debug\netcoreapp3.0\Dal.pdb
+G:\LNU\3course2sem\Mongodb\Task1_SocialMedia\SocialMediaApp\Bll\bin\Debug\netcoreapp3.0\Models.pdb
+G:\LNU\3course2sem\Mongodb\Task1_SocialMedia\SocialMediaApp\Bll\bin\Debug\netcoreapp3.0\ConnectionRepository.pdb
+G:\LNU\3course2sem\Mongodb\Task1_SocialMedia\SocialMediaApp\Bll\obj\Debug\netcoreapp3.0\Bll.csprojAssemblyReference.cache
+G:\LNU\3course2sem\Mongodb\Task1_SocialMedia\SocialMediaApp\Bll\obj\Debug\netcoreapp3.0\Bll.AssemblyInfoInputs.cache
+G:\LNU\3course2sem\Mongodb\Task1_SocialMedia\SocialMediaApp\Bll\obj\Debug\netcoreapp3.0\Bll.AssemblyInfo.cs
+G:\LNU\3course2sem\Mongodb\Task1_SocialMedia\SocialMediaApp\Bll\obj\Debug\netcoreapp3.0\Bll.csproj.CopyComplete
+G:\LNU\3course2sem\Mongodb\Task1_SocialMedia\SocialMediaApp\Bll\obj\Debug\netcoreapp3.0\Bll.dll
+G:\LNU\3course2sem\Mongodb\Task1_SocialMedia\SocialMediaApp\Bll\obj\Debug\netcoreapp3.0\Bll.pdb
+G:\LNU\3course2sem\Mongodb\Task1_SocialMedia\SocialMediaApp\Bll\obj\Debug\netcoreapp3.0\Bll.csproj.CoreCompileInputs.cache
